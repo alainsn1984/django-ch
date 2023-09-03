@@ -7,7 +7,7 @@
 
 {% block content %}
     <h1>Homepage</h1>
-    <img class="bookcover" src="{% static 'images/dfp.png' %}" alt="no iamge">
+    <img class="bookcover" src="{% static 'images/dfp.png' %}" alt="Django for Professional">
     <br>
     {% if user.is_authenticated %}
         Hi, {{ user.username }}, with {{ user.email }}!
